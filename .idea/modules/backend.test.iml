@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="backend:test" external.linked.project.path="$MODULE_DIR$/../../backend" external.root.project.path="$MODULE_DIR$/../../backend" external.system.id="GRADLE" external.system.module.group="com.example" external.system.module.type="sourceSet" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
+        <additionalVisibleModuleNames>backend:main</additionalVisibleModuleNames>
+        <compilerSettings />
+        <compilerArguments>
+          <stringArguments>
+            <stringArg name="jvmTarget" arg="11" />
+            <stringArg name="apiVersion" arg="1.9" />
+            <stringArg name="languageVersion" arg="1.9" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output-test url="file://$MODULE_DIR$/../../backend/build/classes/kotlin/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../backend/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../backend/src/test/kotlin" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="backend.main" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.9.22" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-content-negotiation-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-status-pages-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.8.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-jackson-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:23.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-classes-kqueue:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-classes-epoll:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-events-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.15.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.101.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.15.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.15.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:2.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:2.3.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.7.2" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="4e24b618-b0dc-4acb-af11-cece07afda3c" />
+  </component>
+  <component name="TestModuleProperties" production-module="backend.main" />
+</module>
