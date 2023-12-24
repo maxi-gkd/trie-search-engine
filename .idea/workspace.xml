@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ae9212-6ca5-4f84-80f3-ce7980f936b1" name="Changes" comment="" />
+    <list default="true" id="e0ae9212-6ca5-4f84-80f3-ce7980f936b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +44,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -58,6 +67,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17 (2)",
     "ktor.last.update.timestamp": "1703443879671",
+    "last_opened_file_path": "/Users/maximiliano.kalaydjian/Workspace/trie-search-engine",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +79,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/main/kotlin/com/example/engine" />
     </key>
@@ -82,7 +96,7 @@
       <command value="gradle test run" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ApplicationKt">
+  <component name="RunManager" selected="Gradle.TrieTest.insertAndSearch">
     <configuration name="TrieTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,7 +121,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TrieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrieTest.insertAndSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -120,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.TrieTest&quot;" />
+            <option value="&quot;com.example.engine.TrieTest.insertAndSearch&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,6 +190,9 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
     <configuration name="ApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ApplicationKt" />
       <module name="backend.main" />
@@ -185,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TrieTest.insertAndSearch" />
         <item itemvalue="Kotlin.ApplicationKt" />
         <item itemvalue="Gradle.TrieTest (2)" />
         <item itemvalue="Gradle.backend [test run]" />
         <item itemvalue="Gradle.backend [test]" />
-        <item itemvalue="Gradle.TrieTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,25 +218,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703443312615</updated>
-      <workItem from="1703443313792" duration="4765000" />
+      <workItem from="1703443313792" duration="13774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/backend/src/main/kotlin/com/example/Application.kt</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
+          <line>50</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/backend/src/main/kotlin/com/example/Application.kt</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/backend/src/main/kotlin/com/example/engine/Trie.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
