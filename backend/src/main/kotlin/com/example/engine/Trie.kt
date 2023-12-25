@@ -3,6 +3,10 @@ package com.example.engine
 class TrieNode {
     val children = mutableMapOf<Char, TrieNode>()
     var isEndOfWord = false
+
+    override fun toString(): String {
+        return "TrieNode(children=$children, isEndOfWord=$isEndOfWord)"
+    }
 }
 
 class Trie {

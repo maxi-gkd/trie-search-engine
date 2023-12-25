@@ -10,15 +10,14 @@ class TrieTest {
     fun insertAndSearch() {
         val trie = Trie()
 
-        // Insert words
         trie.insert("apple")
-        trie.insert("app")
-        trie.insert("banana")
-
-        // Test searches
         assertTrue(trie.search("apple"))
-        assertTrue(trie.search("app"))
         assertFalse(trie.search("appl"))
+
+        trie.insert("app")
+        assertTrue(trie.search("app"))
+
+        trie.insert("banana")
         assertTrue(trie.search("banana"))
         assertFalse(trie.search("ban"))
     }

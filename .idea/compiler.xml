@@ -5,6 +5,7 @@
       <module name="backend" target="11" />
       <module name="backend.main" target="11" />
       <module name="backend.test" target="11" />
+      <module name="com.example.backend" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

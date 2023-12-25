@@ -38,7 +38,9 @@ fun Application.module() {
 
         route("/add-word") {
             post {
-                val word = call.receive<String>()
+                val wordRequest = call.receive<WordRequest>()
+                val word = wordRequest.word
+
                 trie.insert(word)
                 call.respond(HttpStatusCode.Created)
                 log.info("Word '$word' added successfully.")
@@ -59,7 +61,8 @@ fun Application.module() {
     }
 }
 
-class NotFoundException() : RuntimeException()
+class NotFoundException : RuntimeException()
+data class WordRequest(val word: String)
 
 fun main() {
     embeddedServer(Netty, port = 8080, module = Application::module).start(wait = true)
