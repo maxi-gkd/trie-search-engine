@@ -1,4 +1,3 @@
-
 const BASE_URL = 'http://localhost:8080';
 
 const handleResponse = async (response) => {
@@ -6,7 +5,7 @@ const handleResponse = async (response) => {
         const error = await response.json();
         throw new Error(error.message || 'Something went wrong');
     }
-    return response.json();
+    return response.ok;
 };
 
 const ApiService = {
@@ -25,6 +24,8 @@ const ApiService = {
         });
         return handleResponse(response);
     },
+
+    handleResponse: handleResponse,
 };
 
 export default ApiService;
