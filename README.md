@@ -2,7 +2,7 @@
 # Trie Search Engine
  A simple Trie-powered search engine project using Kotlin and React.
 
-![image](https://github.com/maxi-gkd/trie-search-engine/assets/4089558/8352906e-0e98-4f4e-a90d-664124d5c5a2)
+<img width="1778" alt="image" src="https://github.com/maxi-gkd/trie-search-engine/assets/4089558/77904baf-94ba-4f16-8b2f-721fc2b367fb">
 
 
 ### Packing and Running:
